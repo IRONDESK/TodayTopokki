@@ -1,0 +1,7 @@
+a = int(input())
+k = list(range(0, a+1))
+k.reverse()
+while k != []:
+    print(k.pop())
+    
+## https://www.codeup.kr/problem.php?id=6075
