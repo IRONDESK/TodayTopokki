@@ -1,2 +1,2 @@
-# studyhard
-This is study on Python which can make me more great.
+# 떡볶이 찾기 프로젝트
+- 떡볶이
