@@ -1,17 +1,19 @@
 import styled from '@emotion/styled';
-import { COLOR } from '../constants';
+import { COLOR } from '../../constants';
 
-import PlaceInfo from '../components/place/PlaceInfo';
-import PlaceDetail from '../components/place/PlaceDetail';
+import PlaceInfo from '../../components/place/PlaceInfo';
+import PlaceDetail from '../../components/place/PlaceDetail';
 import { Main } from 'next/document';
 
 export default function Place() {
     return (
     <>
     <PlaceInfo 
-        Name='우리할매떡볶이'
-        Address='서울 마포구 동교로 222-2'
-        Contact='02-000-9000'
+        name='우리할매떡볶이'
+        address='서울 마포구 동교로 222-2'
+        phonenumber='02-000-9000'
+        mylike={false}
+        like={1}
     />
     <Map>지도</Map>
     <MainCont>
